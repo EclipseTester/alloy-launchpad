@@ -9,14 +9,14 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-metallic transition-all duration-300",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-blue transition-all duration-300",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-steel-300 bg-background hover:bg-steel-50 hover:text-foreground transition-all duration-300",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-copper transition-all duration-300",
-        ghost: "hover:bg-steel-100 hover:text-foreground transition-all duration-300",
+        outline: "border border-border bg-background hover:bg-dark-700 hover:text-foreground transition-all duration-300",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all duration-300",
+        ghost: "hover:bg-dark-700 hover:text-foreground transition-all duration-300",
         link: "text-primary underline-offset-4 hover:underline transition-all duration-300",
-        hero: "bg-gradient-metallic text-primary-foreground hover:shadow-metallic hover:scale-[1.02] transition-all duration-300 font-semibold",
-        steel: "bg-gradient-steel text-steel-900 hover:shadow-steel hover:scale-[1.02] transition-all duration-300 font-medium",
+        hero: "bg-gradient-primary text-primary-foreground hover:shadow-glow hover:scale-[1.02] transition-all duration-300 font-semibold",
+        dark: "bg-gradient-dark text-foreground hover:shadow-dark hover:scale-[1.02] transition-all duration-300 font-medium border border-dark-600",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -8,60 +8,72 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Industrial Color Palette */
-    --background: 0 0% 98%;
-    --foreground: 215 25% 15%;
+    /* Dark Theme Color Palette */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    /* Steel Blue Primary */
-    --primary: 215 85% 20%;
-    --primary-foreground: 0 0% 98%;
-    --primary-muted: 215 50% 30%;
+    /* Blue Primary */
+    --primary: 210 100% 60%;
+    --primary-foreground: 0 0% 8%;
+    --primary-muted: 210 80% 50%;
 
-    /* Copper Accent */
-    --secondary: 18 85% 55%;
+    /* Secondary Blue */
+    --secondary: 210 50% 25%;
     --secondary-foreground: 0 0% 98%;
-    --secondary-muted: 18 60% 65%;
+    --secondary-muted: 210 40% 30%;
 
-    --muted: 215 15% 92%;
-    --muted-foreground: 215 25% 45%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 18 85% 55%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 210 100% 60%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 88%;
-    --ring: 215 85% 20%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 210 100% 60%;
 
-    /* Custom Industrial Tokens */
-    --steel-50: 215 30% 95%;
-    --steel-100: 215 25% 88%;
-    --steel-200: 215 25% 75%;
-    --steel-300: 215 25% 60%;
-    --steel-400: 215 25% 45%;
-    --steel-500: 215 25% 30%;
-    --steel-600: 215 25% 20%;
-    --steel-700: 215 25% 15%;
-    --steel-800: 215 25% 10%;
-    --steel-900: 215 25% 5%;
+    /* Custom Dark Tokens */
+    --dark-50: 0 0% 95%;
+    --dark-100: 0 0% 85%;
+    --dark-200: 0 0% 70%;
+    --dark-300: 0 0% 50%;
+    --dark-400: 0 0% 30%;
+    --dark-500: 0 0% 20%;
+    --dark-600: 0 0% 15%;
+    --dark-700: 0 0% 10%;
+    --dark-800: 0 0% 8%;
+    --dark-900: 0 0% 5%;
 
-    /* Metallic Gradients */
-    --gradient-metallic: linear-gradient(135deg, hsl(215 85% 20%), hsl(215 70% 35%), hsl(18 85% 55%));
-    --gradient-steel: linear-gradient(135deg, hsl(215 25% 75%), hsl(215 25% 60%), hsl(215 25% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(215 85% 20%) 0%, hsl(215 70% 25%) 50%, hsl(18 85% 55%) 100%);
+    /* Blue Variants */
+    --blue-50: 210 100% 95%;
+    --blue-100: 210 100% 85%;
+    --blue-200: 210 100% 75%;
+    --blue-300: 210 100% 65%;
+    --blue-400: 210 100% 60%;
+    --blue-500: 210 100% 50%;
+    --blue-600: 210 80% 45%;
+    --blue-700: 210 60% 40%;
+    --blue-800: 210 50% 30%;
+    --blue-900: 210 40% 20%;
+
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 60%), hsl(210 80% 50%));
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 10%), hsl(0 0% 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(210 50% 15%) 50%, hsl(210 100% 20%) 100%);
     
     /* Shadows */
-    --shadow-metallic: 0 10px 30px -10px hsl(215 85% 20% / 0.3);
-    --shadow-copper: 0 8px 25px -8px hsl(18 85% 55% / 0.4);
-    --shadow-steel: 0 4px 15px -4px hsl(215 25% 30% / 0.2);
+    --shadow-blue: 0 10px 30px -10px hsl(210 100% 60% / 0.3);
+    --shadow-dark: 0 8px 25px -8px hsl(0 0% 0% / 0.4);
+    --shadow-glow: 0 0 40px hsl(210 100% 60% / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

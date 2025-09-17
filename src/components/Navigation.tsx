@@ -2,23 +2,23 @@ import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-steel-200">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-dark-800/95 backdrop-blur-sm border-b border-dark-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-metallic bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               MetalCorp
             </span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-steel-700 hover:text-primary transition-colors duration-300">
-              Services
+            <a href="#products" className="text-dark-100 hover:text-primary transition-colors duration-300">
+              Products
             </a>
-            <a href="#about" className="text-steel-700 hover:text-primary transition-colors duration-300">
+            <a href="#about" className="text-dark-100 hover:text-primary transition-colors duration-300">
               About
             </a>
-            <a href="#contact" className="text-steel-700 hover:text-primary transition-colors duration-300">
+            <a href="#contact" className="text-dark-100 hover:text-primary transition-colors duration-300">
               Contact
             </a>
             <Button variant="hero" size="sm">

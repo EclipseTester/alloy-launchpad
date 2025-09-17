@@ -7,28 +7,28 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Leading the Industry with 
-              <span className="block bg-gradient-metallic bg-clip-text text-transparent">
+              Leading Industry with 
+              <span className="block bg-gradient-primary bg-clip-text text-transparent">
                 Precision & Excellence
               </span>
             </h2>
             
             <div className="space-y-6 text-lg text-muted-foreground">
               <p>
-                For over five decades, MetalCorp has been at the forefront of metallurgical innovation, 
-                providing industry-leading solutions to clients across aerospace, automotive, construction, 
-                and specialized manufacturing sectors.
+                We are stockists, suppliers, manufacturers and exporters of a wide range of ferrous and non-ferrous metal products. 
+                Catering to various industrial projects, we have earned the reputation as a dependable supplier among our vast client base.
               </p>
               
               <p>
-                Our state-of-the-art facilities combine traditional craftsmanship with cutting-edge 
-                technology, ensuring every product meets the highest standards of quality, durability, 
-                and performance.
+                We specialize in non-ferrous metals and have brought together the full range of trading, stockholding, and processing 
+                activities under one roof. Our core strength lies in metals like brass, copper, aluminum, gun metal, phosphor bronze, 
+                beryllium copper, silicon bronze, and nickel alloys.
               </p>
               
               <p>
-                From precision alloy development to custom fabrication services, we deliver solutions 
-                that exceed expectations and drive industrial advancement.
+                In addition to raw materials, we also manufacture a complete range of pipe fittings such as butt weld, forged, 
+                socket weld, and screwed fittings—including elbows, tees, reducers, stub ends, flanges, caps, nipples, couplings, 
+                elbowlets, sockolets, weldolets, and fasteners like nuts, bolts, studs, and washers.
               </p>
             </div>
 
@@ -36,35 +36,35 @@ const About = () => {
               <Button variant="hero" size="lg">
                 Learn More
               </Button>
-              <Button variant="steel" size="lg">
+              <Button variant="dark" size="lg">
                 Download Catalog
               </Button>
             </div>
           </div>
 
           <div className="space-y-8">
-            <div className="bg-gradient-steel p-8 rounded-2xl shadow-steel">
-              <h3 className="text-2xl font-bold text-steel-900 mb-4">Why Choose MetalCorp?</h3>
-              <ul className="space-y-4 text-steel-800">
+            <div className="bg-gradient-dark p-8 rounded-2xl shadow-dark border border-dark-600">
+              <h3 className="text-2xl font-bold text-foreground mb-4">Why Choose Us?</h3>
+              <ul className="space-y-4 text-muted-foreground">
                 <li className="flex items-start gap-3">
-                  <span className="text-secondary text-xl">✓</span>
-                  <span>ISO 9001:2015 certified manufacturing processes</span>
+                  <span className="text-primary text-xl">✓</span>
+                  <span>Third party inspection and testing facilities from Govt. approved labs</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-secondary text-xl">✓</span>
-                  <span>Advanced metallurgical testing and quality assurance</span>
+                  <span className="text-primary text-xl">✓</span>
+                  <span>Complete range of precision instrumentation fittings and valves</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-secondary text-xl">✓</span>
-                  <span>Global supply chain with local expertise</span>
+                  <span className="text-primary text-xl">✓</span>
+                  <span>Superior quality products with complete customer satisfaction</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-secondary text-xl">✓</span>
-                  <span>Custom solutions tailored to your specifications</span>
+                  <span className="text-primary text-xl">✓</span>
+                  <span>Headquartered in Mumbai with global supply capabilities</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-secondary text-xl">✓</span>
-                  <span>Sustainable and environmentally responsible practices</span>
+                  <span className="text-primary text-xl">✓</span>
+                  <span>Serving oil & gas, petrochemical, power plants, and marine industries</span>
                 </li>
               </ul>
             </div>
